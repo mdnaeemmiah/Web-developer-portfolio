@@ -81,7 +81,14 @@ margin-bottom: 0;
     border-radius: 3px;
 }
 /* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
 
+}
+main section{
+    margin-top: 130px;
+}
 
 
 
@@ -93,11 +100,7 @@ margin-bottom: 0;
     margin: 130px ;
 }
 
-main{
-    max-width: 1140px;
-    margin: 0 auto;
 
-}
 .about-info-container{
     display: flex;
     justify-content: space-around;
@@ -106,7 +109,27 @@ main{
     text-align: center;
 
 }
+/* skills related */
 #what-i-do-description{
     padding: 30px 150px;
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0 ;
+}
+.skills-description{
+    color: #757575;
+}
+
+/* resume section */
+.resume-column-title{
+
     
 }
